@@ -2,16 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { TopBarComponent } from './top-bar/top-bar.component';
 import { LeukemiaComponent } from './leukemia/leukemia.component';
 import {RouterModule} from "@angular/router";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopBarComponent,
-    LeukemiaComponent
+    LeukemiaComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
